@@ -1,9 +1,10 @@
 import './App.css';
+import ConfigFetch from './components/configFetch';
 
 function App() {
   return (
     <div className="App">
-      Hello world
+      <ConfigFetch />
     </div>
   );
 }

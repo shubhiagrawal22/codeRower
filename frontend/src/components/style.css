@@ -1,0 +1,56 @@
+.background {
+    width: 100%;
+    height: 130vh;
+    background-color: rgb(171, 253, 171);
+    display: flex;
+  }
+  .leftSection {
+    width: 50%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, rgb(229, 127, 255), rgb(185, 214, 252));
+    gap: 6.25rem;
+  }
+  .heading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(104, 104, 170);
+  }
+  
+  .rightSection {
+    width: 50%;
+    height: 130vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }  
+  .label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: rgb(63, 62, 62);
+  }
+  .button{
+  width: 10.5rem;
+  height: 2rem;
+  border-radius: 25px;
+  margin-top: 20px;
+  color: rgb(88, 88, 143);
+  }
+  .text {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: rgb(78, 77, 77);
+  }
